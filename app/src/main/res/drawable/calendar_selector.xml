@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado seleccionado -->
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/Blues" /> <!-- Cambia a tu color deseado -->
+        </shape>
+    </item>
+
+    <!-- Estado por defecto (no seleccionado) -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" /> <!-- Sin selección -->
+        </shape>
+    </item>
+</selector>

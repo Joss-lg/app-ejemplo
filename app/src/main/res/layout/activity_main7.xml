@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonMostrarSharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#46685b"
+        android:text="Mostrar Datos de SharedPreferences" />
+
+    <Button
+        android:id="@+id/buttonMostrarFileStream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#a6b985"
+        android:text="Mostrar Datos de FileStream"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView para mostrar los datos -->
+    <TextView
+        android:id="@+id/textViewMostrarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
