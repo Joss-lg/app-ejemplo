@@ -15,7 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-
             android:hint="Nombre de usuario" />
 
         <!-- Campo de entrada para el apellido -->
