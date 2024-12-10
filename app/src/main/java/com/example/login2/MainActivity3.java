@@ -16,7 +16,7 @@ import androidx.core.view.WindowInsetsControllerCompat;
 public class MainActivity3 extends AppCompatActivity {
 
     private ImageView imageView;
-    private Button button2;
+    private Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
